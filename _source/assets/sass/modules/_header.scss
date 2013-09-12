@@ -1,0 +1,30 @@
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// HEADER STYLES
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+header.global { text-align: center; position: relative; z-index: 10;
+	background: $d8_lightest_teal;
+	background: -moz-linear-gradient(top,  #ffffff 0%, $d8_lightest_teal 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,$d8_lightest_teal));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,$d8_lightest_teal 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,$d8_lightest_teal 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,$d8_lightest_teal 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,$d8_lightest_teal 100%);
+
+	@include single-box-shadow();
+
+
+	h1 { color: $d8_medium_red; font: 72px/1 'Alfa Slab One', Helvetica, Arial, sans-serif; letter-spacing: 0.03em; margin: 0; padding-bottom: 25px; text-shadow: rgba(0,0,0,0.15) 0 3px 3px; }
+	h2 { margin: 0; font-weight: normal; padding-top: 25px; text-transform: uppercase; }
+}
+
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// MEDIA QUERIES
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+@media only screen and (min-width: $medium) {
+	
+}
