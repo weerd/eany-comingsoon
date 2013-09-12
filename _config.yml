@@ -1,20 +1,5 @@
-name:    "Escuela Argentina en Nueva York"
-abbr:    "EANY"
-url:     "http://escuelaargentinany.com"
+name: Escuela Argentina en Nueva York
+abbr: EANY
 
-source:      _source
-destination: _deploy
-markdown:    redcarpet
-
-exclude: [README.md, sass, config.rb, .sass-cache]
-
-
-## Additional or alternative options
-# description: "Description for site or subheading."
-# paginate: 10
-# permalink: pretty
-# permalink: /:categories/:title
-# pygments: true
-
-## Tips
-# url: "http://example.com"  # NO trailing slash '/'
+markdown: redcarpet
+pygments: true

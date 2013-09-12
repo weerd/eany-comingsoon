@@ -1,8 +1,2 @@
-# Ignore System Files
-
 .DS_Store
-
-
-# Ignore Generated Site
-
-_deploy
+_site
