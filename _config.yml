@@ -3,3 +3,5 @@ abbr: EANY
 
 markdown: redcarpet
 pygments: true
+
+exclude: [README.md, sass, config.rb, .sass-cache]
