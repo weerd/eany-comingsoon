@@ -4,4 +4,4 @@
 
 This is the coming soon page for the EANY website.
 
-<http://weerd.github.io/eany-comingsoon/>
+<http://escuelaargentinany.com/>
